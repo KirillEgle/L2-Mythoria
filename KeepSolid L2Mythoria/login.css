@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    min-height: 100vh;
+    background-image: url(img/bak.png);
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 0.678);
+    
+}
+form{
+    text-align: center;
+    justify-content: center;
+}
+input{
+    box-sizing: border-box;
+}
+.login{
+    background: linear-gradient(rgb(92, 92, 92), rgb(22, 22, 22));
+    width: 420px;
+    border-style:ridge;
+    border: none;
+    border-right: 2px rgba(255, 255, 255, 0.253) ridge;
+    border-left: 2px rgba(255, 255, 255, 0.253) ridge;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.login h1{
+    text-align: center;
+    font-size: 36px;
+
+}
+.login_wr{
+    border: 2px rgba(255, 255, 255, 0.253) ridge;
+    border-radius: 20px 20px 20px 20px;
+    border-top: none ;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.login .whrite-panel{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 80%;
+    
+    
+}
+.img{
+    position: absolute;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 13px;
+
+
+}
+
+.login .whrite-pane input{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: wheat;
+    width: 25%;
+}
+.whrite-panel input{
+    width: 90%;
+    height: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    
+}
+.whrite-pane input::placeholder{
+    color: rgb(255, 255, 255);
+    
+}
+.chekbox{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-right: 5%;
+
+}
+.Remember-bn{
+    margin-left: 5px;
+}
+.Remember-bn::before{
+    display: inline-flex;
+    
+    border: none;
+    align-items: center;
+}
+
+.sub-button {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+    
+    
+}
+.login_b
+
+button {
+    padding: 8px 37px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border: 0.1px rgb(56, 56, 56) solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40%;
+    font-size: large;
+    transition: transform 0.3s ease
+}
+
+button:focus {
+    background-color: rgb(90, 90, 90);
+    border: 1px white solid;
+}
+
+button:hover {
+    background-color: rgb(85, 85, 85);
+    transform: scale(1.1);
+}
+.dont{
+    text-align: center;
+}
+
+a {
+    color:blanchedalmond;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight:bold;
+  
+}
+a:hover{
+    color:rgb(131, 131, 131);
+}
+.dont {
+    margin-top: 50px;
+}
